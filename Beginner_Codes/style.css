@@ -1,0 +1,10 @@
+body{
+    /*background-color: rgb(224, 224, 224);
+    background-image: url("https://cdn-icons-png.flaticon.com/512/3003/3003948.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;*/
+    background: rgba(201, 186, 186, 0.646) url("https://cdn-icons-png.flaticon.com/512/3003/3003948.png") no-repeat right top/55px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

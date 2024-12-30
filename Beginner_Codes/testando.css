@@ -1,0 +1,62 @@
+/*
+ANATOMIA DO CSS
+
+- Declaration
+- Selector
+- {} - context
+- Properties
+- Property Value
+
+*/
+
+h1 {
+  color: blueviolet;
+  font-size: 50px;
+  letter-spacing: 2;
+  text-transform: uppercase;  
+}
+
+.teste{
+  color: darkorange;
+  font-weight: bold;
+}
+
+/*
+- SELECTORS
+  type | element | tag
+  - id
+    #nome_id
+  
+  - class
+    .nome_class
+
+  - atributo 
+    [title = "nome_title"]
+  
+  - Universal (tudo na página)
+    só colocar o * 
+*/
+
+
+/*
+- COMBINATOR
+  - Descendent
+    O filho (segundo elemento) herda do pai (primeiro elemento)
+      article p
+        ==> todos os "p"s dentro de article sofrem alteração.
+  
+  - List
+    separado por vírgula  
+      span, mark{ }
+  
+  - Next Sibling
+    altera o segundo elemento, a partir da referencia do primeiro. 
+      h2 + p
+        ==> altera o primeiro "p" após um h2.
+
+  - Child
+    altera o primeiro item/filho dentro de uma referencia
+      aside > ul{
+        margin-top: 60px;
+      } 
+*/
