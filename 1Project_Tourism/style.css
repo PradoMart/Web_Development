@@ -1,28 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     font-family: "Open Sans", serif;
     color: #333333;
+    font-size: 16px;
     line-height: 150%;
+    text-align: justify;
 }
 
 main{
     width: 1120px;
     height: 3054;
     margin: 88px 80px 137px;
+    box-sizing: border-box;
 }
 
 img{
     border-radius: 28px;
+    padding-bottom: 20px;
+    object-fit: cover;
 }
 
 .divider{
     width: 100%;
     height: 1.5px;
-    margin: 36px 0;
     background-color: #d9d9d9;
 }
 
-#text_bompara, ul{
+header  p, #text_locals_intro{
     font-weight: bold;
+    text-transform: uppercase;
+    color: #E1624F;
+    padding-bottom: 8px;
+}
+
+h1, h2{
+    color: #1B1B1B;
+}
+
+#Busan_Description{
+    padding: 40px 0;
+}
+
+#img_busan_main{
+    padding-bottom: 24px;
+}
+
+#text_intro{
+    text-align: center;
+    font-style: italic;
+}
+
+#locals_introduction{
+    padding: 64px 0;
+}
+
+#text_locals_intro{
+    padding-bottom: 2px;
+}
+
+h2{
+    padding-bottom: 8px;
+}
+
+h3{
+    padding-bottom: 4px;
+}
+
+#text_bompara{
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+ul{
+    font-weight: bold;
+    padding-left: 23px;
+}
+
+#second_local{
+    margin: 48px 0;
 }
 
 #li_historia{
@@ -39,4 +98,25 @@ img{
 
 #li_orcamento{
     color: #E95E10;
+    padding-bottom: 40px;
+}
+
+::marker{
+    color: #333333;
+}
+
+#text_footer{
+    padding: 40px 0;
+    text-align: center;
+}
+
+#text_final_footer{
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 48px;
+}
+
+#Heart{
+    vertical-align: baseline;
+    padding: 0px;
 }
