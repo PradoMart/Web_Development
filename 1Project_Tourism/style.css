@@ -13,9 +13,9 @@
 
 main{
     width: 1120px;
-    height: 3054;
-    margin: 88px 80px 137px;
+    margin: 88px auto 137px ;
     box-sizing: border-box;
+    background-position: center;
 }
 
 img{
@@ -64,10 +64,12 @@ h1, h2{
 
 h2{
     padding-bottom: 8px;
+    font-size: 32px;
 }
 
 h3{
     padding-bottom: 4px;
+    font-size: 28px;
 }
 
 #text_bompara{
