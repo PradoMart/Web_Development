@@ -1,0 +1,26 @@
+header{
+    background-image: url(../assets/Backgrounds/Background_Intro.png);
+    object-fit: cover;
+    box-sizing: border-box;
+    
+    padding: 120px 163px 183px;
+}
+
+.avatar{
+    /* img{
+        border: solid ;
+    } */
+}
+
+span{
+    display: flex;
+    align-items: center;
+    background-color: var(--gray-300);
+    border-radius: 999px;
+}
+
+.skills{
+    display: flex;
+    gap: 16px;
+    align-content: center;
+}
