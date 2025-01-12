@@ -1,18 +1,56 @@
 header{
-    background-image: url(../assets/Backgrounds/Background_Intro.png);
-    object-fit: cover;
-    box-sizing: border-box;    
-    padding: 120px 163px 183px;
+    max-width: 1366px;
+    max-height: 750px;
+    background: url(../assets/Backgrounds/Background_Intro.png) center/100%;
+    padding: 120px 163px;
 
-    /* section{
-        display: inline-block;
-        max-width: 680px;
-        text-align: center;
-    } */
+    display: grid;
+    justify-items: center;
+    
+}
 
-    h1{
-        font: var(--h1);
-        color: var(--gray-600);
+.profile{
+    justify-items: center;
+    padding-bottom: 80px;
+
+    .avatar{
+        display: flex;
+        width: 112px;
+        height: 112px;
+        position: relative;
+
+        #profile_avatar{
+            object-fit: cover;
+            border-radius: 999px;
+            border: solid 3px var(--red);
+            /* margin-bottom: 56px; */
+        }
+        
+        figcaption{
+            img{
+                position: absolute;
+                width: 32px;
+                height: 32px;
+                bottom: 0;
+                right: 0;
+                z-index: 10;
+            }
+        }
+    }
+
+    .about-me{
+        justify-items: center;
+        
+        h1{
+            font: var(--h1);
+            color: var(--gray-600);
+            padding-block: 8px 20px;
+            letter-spacing: 2px;
+        }
+
+        #red-text{
+            color: var(--red);
+        }
     }
 
     div:nth-child(2){
@@ -20,39 +58,42 @@ header{
             font: var(--text_sm);
             color: var(--gray-400);
         }
+    }
 
-        padding-bottom: 80px;
+    #subtitle-font{
+        padding-top: 56px;
+        font: var(--subtitle);
+        color: var(--gray-500);
     }
 }
 
-#subtitle-font{
-    font: var(--subtitle);
-    color: var(--gray-500);
 
-}
-
-.avatar{
-    img:first-child{
-        position: relative;
-        border-radius: 999px;
-        border: solid 3px var(--red);
-        margin-bottom: 56px;
-    }
-
-    figcaption{
-        position: absolute;
-    }
-}
-
-span{
-    display: flex;
-    align-items: center;
-    background-color: var(--gray-300);
-    border-radius: 999px;
-}
 
 .skills{
     display: flex;
     gap: 16px;
+    justify-content: center;
+    padding-bottom: 94px;
+
+    span{
+        height: 40px;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        background-color: var(--gray-300);
+        border-radius: 999px;
+        padding: 8px 16px;
+        gap: 8px;
+    
+        p{
+            font: var(--text_md);
+            color: var(--gray-500);
+        }
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: center;
     align-content: center;
 }
