@@ -1,0 +1,63 @@
+.my-jobs{
+    max-width: 1366px;
+    max-height: 917px;
+    background-color: var(--gray-200);
+    padding: 72px 120px 144px;
+    
+    justify-items: center;
+    box-sizing: border-box;
+
+    &>div:first-child{
+        padding-bottom: 56px;
+        justify-items: center;
+
+        p{
+            font: var(--subtitle);
+            color: var(--red);
+            padding-bottom: 8px;
+        }
+
+        h2{
+            font: var(--h2);
+            color: var(--gray-600);
+        }
+    }
+}
+
+.portfolio{
+    gap: 24px;
+    width: 1040px;
+}
+
+#thumbnails{
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-300);
+    border-radius: 12px;
+    padding: 12px 12px 17px;
+
+    img{
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+    }
+
+    aside{
+        padding: 4px;
+
+        h3{
+            padding-top: 20px;
+            padding-bottom: 8px;
+            font: var(--h3);
+            color: var(--gray-600);
+            letter-spacing: 0.5px;
+        }
+
+        p{
+            font: var(--text_sm);
+            color: var(--gray-500);
+            text-align: justify;
+
+        }
+    }
+}

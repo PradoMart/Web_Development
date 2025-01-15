@@ -22,8 +22,7 @@ header{
         #profile_avatar{
             object-fit: cover;
             border-radius: 999px;
-            border: solid 3px var(--red);
-            /* margin-bottom: 56px; */
+            border: solid 4px var(--red);
         }
         
         figcaption{
@@ -75,6 +74,7 @@ header{
     justify-content: center;
     padding-bottom: 94px;
 
+
     span{
         height: 40px;
         box-sizing: border-box;
@@ -84,7 +84,7 @@ header{
         border-radius: 999px;
         padding: 8px 16px;
         gap: 8px;
-    
+
         p{
             font: var(--text_md);
             color: var(--gray-500);

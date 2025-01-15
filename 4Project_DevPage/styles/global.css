@@ -37,3 +37,7 @@ body{
     margin: auto;
     border: solid black;
 }
+
+a{
+    text-decoration: none;
+}
