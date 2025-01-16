@@ -2,10 +2,6 @@
     display: grid;
 }
 
-.grid-flow-column{
-    grid-auto-flow: column row;
-}
-
 .grid-columns-3{
     grid-template-columns: 1fr 1fr 1fr;
 }
