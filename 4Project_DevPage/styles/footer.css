@@ -1,0 +1,67 @@
+footer{
+
+    background: url(../assets/Backgrounds/Background_Contacts.png) center/100%;
+    width: 1359.6px;
+    height: 787px;
+    box-sizing: border-box;
+    padding: 128px 120px 200px;
+    flex-direction: column;
+    align-items: center;
+
+    .contato{
+        width: 420px;
+        height: 91px;
+        margin-bottom: 48px;
+        gap: 8px;
+        align-items: center;
+        flex-direction: column;
+
+        &>p:first-child{
+            font: var(--subtitle);
+            color: var(--purple);
+        }
+
+        h2{
+            font: var(--h2);
+            color: var(--gray-600);
+        }
+
+        &>p:last-child{
+            font: var(--text_md);
+            color: var(--gray-500);
+        }
+    }
+
+    .social-media{
+        width: 400px;
+        height: 320px;
+        gap: 16px;
+        flex-direction: column;
+
+        a{
+            width: 400px;
+            height: 68px;
+            border-radius: 8px;
+            padding: 20px;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: var(--gray-300);
+
+            p{
+                width: 288px;
+                font: var(--text_md);
+                color: var(--gray-500);
+                padding-block: 3px;
+            }
+
+            &>img:first-child{
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+    }
+
+}
