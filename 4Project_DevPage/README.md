@@ -1,0 +1,1 @@
+💻 This is a web page made with <strong>HTML and CSS</strong>. It was the first page that I built by myself. Here I put in practice the knowledge that I got in RocketSeat fullstack's course, for instance, flex and grid display.
