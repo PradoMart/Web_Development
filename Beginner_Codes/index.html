@@ -29,5 +29,47 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate possimus fuga, expedita pariatur nemo omnis dicta nam sequi dolores delectus quas assumenda, minus atque quam aut in ipsum! Esse, repudiandae?</p>
         </section>
     </main>
+
+    <form>
+        <datalist id="colorpicker">
+            <option value="#FCAC00">
+            <option value="#FCAC58">
+        </datalist>
+
+        <input type="color" name="color" list="colorpicker">
+        <button>Submit</button>
+        
+    </form>
+
+    <form>
+        <label for="name">Nome</label>
+        <input type="text" id="name" placeholder="Coloque seu nome">
+        <button>Submit</button>
+
+        <label>
+            Idade
+            <input type="number" placeholder="Coloque sua idade">
+        </label>
+    </form>
+
+        <form>
+            <select name="car" size="4" multiple>
+                <option value="">Selecione</option>
+                <optgroup label="esportivos">
+                    <option label="Fiat" value="fiat">
+                    <option label="Audi" value="Audi">
+                </optgroup>
+            </select>
+            <button>Submit</button>
+        </form>
+
+        <form>
+            <fieldset>
+                <legend>Contato</legend>
+                <input type="text" name="nome">
+                <input type="email" name="mail">
+                <button>Submit</button>
+            </fieldset>
+        </form>
 </body>
 </html>
