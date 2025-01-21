@@ -1,0 +1,40 @@
+body{
+    background-color: #29292E;
+    padding: 5rem;
+}
+
+#app{
+    display: grid;
+    grid-template-columns: 32.78% 67.21%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+aside{
+    /* max-width: 22.875rem; */
+
+    .background{
+        border-radius: 0.75rem;
+        position: absolute;
+    }
+    
+    header{
+        position: relative;
+        padding: 2rem;
+
+        h1{
+            font: var(--txt-logo);
+            font-size: 2.5rem;
+            color: var(--pink);
+        }
+
+        p{
+            font: var(--txt-md);
+            color: var(--txt-heading);
+        }
+
+        img{
+            margin-bottom: 1rem;
+        }
+    }
+}
