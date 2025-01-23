@@ -1,0 +1,25 @@
+input, textarea{
+    appearance: none;
+    width: 100%;
+    border-radius: .5rem;
+    padding: 0.8125rem 1rem;
+    border: 2px solid transparent;
+    outline: 1px solid var(--input-stroke);
+    background-color: var(--input-base);
+
+    font: var(--txt-md);
+
+    margin-bottom: 1rem;
+    margin-top: .75rem;
+
+}
+
+label{
+    font: var(--txt-sm);
+    color: var(--txt-body);
+}
+
+.input-wrapper-date{
+    margin-block: 1rem;
+    gap: 1rem;
+}

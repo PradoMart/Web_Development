@@ -1,0 +1,11 @@
+@import url(fields/index.css);
+
+fieldset{
+    border: none;
+    display: grid;
+    margin-bottom: 3rem;
+}
+
+.about-event{
+    
+}

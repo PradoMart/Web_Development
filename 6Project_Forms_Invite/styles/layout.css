@@ -1,6 +1,7 @@
 body{
     background-color: #29292E;
     padding: 5rem;
+    overflow: hidden;
 }
 
 #app{
@@ -11,7 +12,7 @@ body{
 }
 
 aside{
-    /* max-width: 22.875rem; */
+    max-width: 22.875rem;
 
     .background{
         border-radius: 0.75rem;

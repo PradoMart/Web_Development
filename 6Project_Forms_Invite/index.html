@@ -28,21 +28,23 @@
                 <fieldset class="about-event">
                     <div class="header flex">
                         <img src="assets/icons/calendar.svg" alt="caledar icon">
-                        <p>Sobre o evento</p>
+                        <h3>Sobre o evento</h3>
                     </div>
                     <div class="input-wrapper">
                         <label for="title">Título</label>
                         <input type="text" name="title" id="title" placeholder="Nome do evento">
                     </div>
 
-                    <div class="input-wrapper">
-                        <label for="beg-date">Início</label>
-                        <input type="datetime" name="beg-date" id="beg-date" placeholder="DD/MM/AAAA, --:--">
-                    </div>
-
-                    <div class="input-wrapper">
-                        <label for="fin-date">Fim</label>
-                        <input type="datetime" name="fin-date" id="fin-date" placeholder="DD/MM/AAAA, --:--">
+                    <div class="input-wrapper flex input-wrapper-date">
+                        <div class="input-wrapper flex-1">
+                            <label for="beg-date">Início</label>
+                            <input type="datetime" name="beg-date" id="beg-date" placeholder="DD/MM/AAAA, --:--">
+                        </div>
+                        
+                        <div class="input-wrapper flex-1">
+                            <label for="fin-date">Fim</label>
+                            <input type="datetime" name="fin-date" id="fin-date" placeholder="DD/MM/AAAA, --:--">
+                        </div>
                     </div>
 
                     <div class="radio-wrapper">
@@ -74,7 +76,7 @@
                 <fieldset class="styling">
                     <div class="header flex">
                         <img src="assets/icons/paintbrush-vertical.svg" alt="paintbrush icon">
-                        <p>Personalização</p>
+                        <h3>Personalização</h3>
                     </div>
 
                     <div class="input-wrapper">

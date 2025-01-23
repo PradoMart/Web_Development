@@ -28,8 +28,10 @@
     --shape-background: #131516;
     --shape-button: #2D3136;
     --shape-hover: #383D42;
+    --input-base: #1C1F21;
+    --input-stroke: #363B40;
+    --input-placeholder: #869198;
 }
-
 
 img{
     max-width: 100%;
@@ -38,4 +40,14 @@ img{
 
 .flex{
     display: flex;
+}
+
+h2, h3{
+    color: var(--txt-heading);
+    font: var(--txt-head-sm);
+
+}
+
+.flex-1{
+    flex: 1;
 }
