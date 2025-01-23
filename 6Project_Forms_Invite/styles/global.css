@@ -6,16 +6,16 @@
 
 :root{
     --font-leckerli: "Leckerli One", serif;
-    --txt-logo: 400 2.5rem/auto var(--font-leckerli);
+    --txt-logo: 400 2.5rem var(--font-leckerli);
     
     --font-open: "Open Sans", serif;
-    --txt-md: 600 1rem/auto var(--font-open);
-    --txt-sm: 500 .875rem/auto var(--font-open);
-    --txt-xs: 400 .75rem/auto var(--font-open);
+    --txt-md: 600 1rem var(--font-open);
+    --txt-sm: 500 .875rem var(--font-open);
+    --txt-xs: 400 .75rem var(--font-open);
     
     --font-baloo: "Baloo 2", serif;
-    --txt-head-md: 800 1.75rem/auto var(--font-baloo);
-    --txt-head-sm: 800 1.125rem/auto var(--font-baloo);
+    --txt-head-md: 800 1.75rem var(--font-baloo);
+    --txt-head-sm: 800 1.125rem var(--font-baloo);
 
     --pink: #FF598B;
     --purple: #B259FF;
@@ -24,10 +24,18 @@
     --yellow: #FFCD59;
     --txt-heading: #F9F9F9;
     --txt-body: #C8CDD0;
+    --shape-body: #212427;
+    --shape-background: #131516;
+    --shape-button: #2D3136;
+    --shape-hover: #383D42;
 }
 
 
 img{
     max-width: 100%;
     height: auto;
+}
+
+.flex{
+    display: flex;
 }

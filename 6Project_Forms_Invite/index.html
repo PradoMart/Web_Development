@@ -4,7 +4,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Festivite</title>
@@ -22,7 +22,74 @@
             </header>
         </aside>
         
-        <main>
+        <main class="main-content">
+            <h2>Crie seu convite</h2>
+            <form action="">
+                <fieldset class="about-event">
+                    <div class="header flex">
+                        <img src="assets/icons/calendar.svg" alt="caledar icon">
+                        <p>Sobre o evento</p>
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="title">Título</label>
+                        <input type="text" name="title" id="title" placeholder="Nome do evento">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="beg-date">Início</label>
+                        <input type="datetime" name="beg-date" id="beg-date" placeholder="DD/MM/AAAA, --:--">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="fin-date">Fim</label>
+                        <input type="datetime" name="fin-date" id="fin-date" placeholder="DD/MM/AAAA, --:--">
+                    </div>
+
+                    <div class="radio-wrapper">
+                        <label>Tipo</label>
+                        
+                        <div class="radio-inner">
+                            <input type="radio" name="type_event" id="Presential" value="Presential">
+                            <label for="type_event">Presencial</label>
+                        </div>
+
+                        <div class="radio-inner">
+                            <input type="radio" name="type_event" id="Online" value="Online">
+                            <label for="type_event">Online</label>
+                        </div>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="local">Local</label>
+                        <input type="text" name="local" id="local" placeholder="Endereço ou link">
+                    </div>
+
+                    <div class="textarea-wrapper">
+                        <label for="description">Descrição</label>
+                        <textarea name="description" id="description" cols="50" rows="6" placeholder="Escreva sobre os detalhes do evento"></textarea>
+                    </div>
+
+                </fieldset>
+
+                <fieldset class="styling">
+                    <div class="header flex">
+                        <img src="assets/icons/paintbrush-vertical.svg" alt="paintbrush icon">
+                        <p>Personalização</p>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label>Cor principal</label>
+                        <div class="radio-wrapper">
+                            <div class="radio-inner">
+                                <div class="radio-img"></div>
+                                <div class="radio-inner-color blue"></div>
+                                <input type="radio" name="color" id="blue">
+                            </div>
+
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
         </main>
     </div>
 </body>

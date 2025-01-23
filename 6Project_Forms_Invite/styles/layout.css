@@ -22,18 +22,17 @@ aside{
         position: relative;
         padding: 2rem;
 
-        h1{
+        & h1{
             font: var(--txt-logo);
-            font-size: 2.5rem;
             color: var(--pink);
         }
 
-        p{
-            font: var(--txt-md);
+        & p{
+            font: 300 1rem var(--font-open);
             color: var(--txt-heading);
         }
 
-        img{
+        & img{
             margin-bottom: 1rem;
         }
     }
