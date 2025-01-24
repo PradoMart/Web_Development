@@ -1,0 +1,12 @@
+.event-theme{
+    
+    .cover-pic-event{
+        background-color: aliceblue;
+        
+        & input{
+            width: 5rem;
+        }
+
+    }
+    
+}
