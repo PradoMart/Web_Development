@@ -79,6 +79,7 @@
         padding: .25rem .25rem .5rem;
         position: relative;
         box-sizing: border-box;
+        outline: 2px solid transparent;
 
         img{
             width: 7.875rem;
@@ -95,8 +96,17 @@
         }
 
         label{
-            width: 100%;
+            width: 7.875rem;
             margin: 0;
+            text-align: center;
+        }
+
+        &:hover, &:focus-within{
+            background-color: var(--shape-hover);
+        }
+
+        &:has(:checked){
+            outline: 1px solid var(--brand-light);
         }
 
     }
