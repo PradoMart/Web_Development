@@ -1,6 +1,7 @@
 input, textarea{
     appearance: none;
     width: 100%;
+    height: 3rem;
     border-radius: .5rem;
     padding: 0.8125rem 1rem;
     border: 2px solid transparent;
@@ -8,13 +9,22 @@ input, textarea{
     background-color: var(--input-base);
 
     font: var(--txt-md);
+    color: var(--txt-heading);
 
     margin-bottom: 1rem;
     margin-top: .75rem;
 
 }
 
-label{
+input:focus,
+select:focus,
+textarea:focus{
+    outline: .25rem solid transparent;
+    border-color: var(--brand-light);
+    outline-offset: .1px;
+}
+
+label, legend{
     font: var(--txt-sm);
     color: var(--txt-body);
 }

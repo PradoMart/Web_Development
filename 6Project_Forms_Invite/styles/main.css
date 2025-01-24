@@ -6,6 +6,7 @@
     
     max-width: 51.25rem;
     max-height: auto;
+    box-sizing: border-box;
 
     h2{
         font: var(--txt-head-md);

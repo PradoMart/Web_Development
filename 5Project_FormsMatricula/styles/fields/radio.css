@@ -22,7 +22,7 @@ label + .radio-wrapper{
     & input,
     & input:focus,
     & input:hover {
-        all: unset;
+        all: unset; 
         position: absolute;
         inset: 0;
     }

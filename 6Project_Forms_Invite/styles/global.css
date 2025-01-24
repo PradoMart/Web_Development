@@ -31,6 +31,9 @@
     --input-base: #1C1F21;
     --input-stroke: #363B40;
     --input-placeholder: #869198;
+    --brand-light: #59B2FF;
+    --brand-mid: #3487CF;
+    --brand-dark: #1D6FB6;
 }
 
 img{

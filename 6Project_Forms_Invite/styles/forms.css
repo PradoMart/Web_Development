@@ -4,8 +4,5 @@ fieldset{
     border: none;
     display: grid;
     margin-bottom: 3rem;
-}
-
-.about-event{
-    
+    width: 35rem;
 }
