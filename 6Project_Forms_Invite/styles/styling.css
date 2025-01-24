@@ -3,14 +3,58 @@
         all: unset;
     }
 
+    input{
+        margin: 0;
+        padding: 0;
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    label{
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+
     .radio-wrapper{
         display: flex;
         width: 100%;
+        justify-content: space-between;
+        margin-bottom: 1.75rem;
+
     }
 
     .radio-inner{
+        svg{
+            position: absolute;
+            width: 2.5rem;
+            height: 2.5rem;
+            padding: 0;    
+        }
+
         width: 2.5rem;
         height: 2.5rem;
+        padding: 0;
+        outline: 2px solid transparent;
+        justify-items: center;
+        align-items: center;
+
+        &:hover, &:focus-within{
+            margin-block: 0;
+            background-color: transparent;
+
+            svg {
+                &>rect:first-child{
+                    fill: var(--shape-hover);
+                }
+            }
+        }
+
+        &:has(:checked){
+            svg {
+                outline: 1px solid var(--brand-light);
+                border-radius: 62.4375rem;
+            }
+        }
     }
 
 }
