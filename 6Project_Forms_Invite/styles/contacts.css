@@ -1,0 +1,6 @@
+.contacts{
+    .e-mail-tel{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
