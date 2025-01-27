@@ -1,0 +1,52 @@
+footer{
+    width: 35rem;
+    
+    .check-wrapper{
+        display: grid;
+        gap: .25rem;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .check-inner{
+        display: flex;
+        padding-block: 0.28125rem;
+        align-items: center;
+
+        input, div:first-child{
+            all: unset;
+            width: 1.25rem;
+            height: 1.25rem;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+
+            background-color:  var(--input-base);
+            border-radius: .25rem;
+            outline: 0.3px solid transparent;
+            outline: 0.15px solid var(--input-stroke);
+        }
+        
+        input{
+            margin: 0;
+            &:hover, &:focus-within{
+            outline: 0.15px solid var(--brand-light);
+            }
+
+            &:checked{
+                background: url(../assets/icons/checked.svg) no-repeat center;
+            }
+        }
+        
+        label{
+            padding-left: .75rem;
+            span{
+                color: var(--brand-light);
+                text-decoration: underline;
+            }
+        }
+
+        
+    }
+}

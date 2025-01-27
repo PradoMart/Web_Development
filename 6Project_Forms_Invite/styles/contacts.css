@@ -1,6 +1,12 @@
 .contacts{
+    display: inline-block;
+    margin-bottom: 3rem;
+
+    width: 35rem;
     .e-mail-tel{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 1rem;
+        gap: 1rem;
     }
 }

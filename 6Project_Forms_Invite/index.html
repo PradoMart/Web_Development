@@ -278,7 +278,7 @@
                                 <legend>Foto de Capa</legend>
                                 <div class="content-cover-pic">
                                     <div class="img-cover-pic-event">
-                                        <input type="file" id="cover-picture" name="cover-picture" required>
+                                        <input type="file" id="cover-picture" name="cover-picture">
                                         <img src="assets/icons/upload.svg" alt="upload icon">
                                         <p>Selecionar</p>
                                     </div>
@@ -300,23 +300,48 @@
 
                         <div class="input-wrapper">
                             <label for="name">Nome</label>
-                            <input type="text" id="name" name="name" placeholder="Nome Completo" required>
+                            <input type="text" id="name" name="name" placeholder="Nome Completo">
                         </div>
 
                         <div class="e-mail-tel">
                             <div class="input-wrapper">
                                 <label for="mail">E-mail</label>
-                                <input type="email" id="mail" name="mail" placeholder="exemplo@email.com" required>
+                                <input type="email" id="mail" name="mail" placeholder="exemplo@email.com">
                             </div>
 
                             <div class="input-wrapper">
                                 <label for="phone">Telefone</label>
-                                <input type="tel" id="phone" name="phone" placeholder="(99) 99999-9999 " required>
+                                <input type="tel" id="phone" name="phone" placeholder="(99) 99999-9999 ">
                             </div>
                         </div>
                     </div>
 
-                <button>submit</button>
+                    <footer>
+                        <div class="check-wrapper">
+                            <div class="check-inner">
+                                <input type="checkbox" name="terms" id="terms">
+                                <div class="checkbox-img"></div>
+                                <label for="terms">Li e concordo com os <span>Termos e Condições</span> e com a <span>Política de Privacidade</span></label>
+                            </div>
+
+                            <div class="check-inner">
+                                <input type="checkbox" name="ads-email" id="ads-email">
+                                <div class="checkbox-img"></div>
+                                <label for="ads-email">Aceito receber atualizações e promoções por e-mail</label>
+                            </div>
+
+                            <div class="check-inner">
+                                <input type="checkbox" name="ads-sms" id="ads-sms">
+                                <div class="checkbox-img"></div>
+                                <label for="ads-sms">Aceito receber atualizações e promoções por SMS</label>
+                            </div>
+                        </div>
+                    </footer>
+                
+                <div class="button-wrapper">
+                    <img src="assets/icons/ticket.svg" alt="ticket icon">
+                    <button>Gerar Convite</button>
+                </div>
             </form>
         </main>
     </div>
