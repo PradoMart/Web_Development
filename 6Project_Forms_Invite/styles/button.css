@@ -1,0 +1,25 @@
+.button-wrapper{
+    width: 35rem;
+    box-sizing: border-box;
+
+}
+
+button{
+    all: unset;
+    display: flex;
+    align-items: center;
+    appearance: none;
+    cursor: pointer;
+
+    padding-block: 0.875rem;
+    padding-inline: 1.25rem;
+
+    background-color: var(--brand-dark);
+    gap: 1rem;
+
+    border-radius: .5rem;
+    margin-left: auto;
+
+    font: var(--txt-md);
+    color: var(--txt-heading);
+}

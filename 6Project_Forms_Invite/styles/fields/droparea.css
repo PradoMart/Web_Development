@@ -16,11 +16,11 @@
                 display: grid;
                 gap: .5rem;
                 justify-items: center;
+                position: relative;
                 
                 label{
                     margin: 0;
-                }
-
+                }               
             }
         }
     }
