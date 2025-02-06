@@ -1,0 +1,15 @@
+.container{
+    --max-width: 375px;
+    
+    width: min(var(--max-width), 100% - var(--px-lg) * 2 );
+    /* o code acima pega o menor valor entre os 375px e a diferença aplicada com o padding de 1.2rem na var px-lg. ta multiplicado por dois, pq é referente aos lados esquerdo e direto; */
+
+    margin-inline: auto;
+    border: solid violet 2px;
+}
+
+@media (width >= 80em){
+    .container{
+        --max-width: 80rem;
+    }
+}
