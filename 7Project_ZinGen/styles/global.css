@@ -34,6 +34,12 @@
     --fs-xl: 1.5rem;
     --fs-2xl: 2.5rem;
 
+    /* padding no eixo Y */
+    --py-base: 1rem;
+    --py-lg: 1.5rem;
+    --py-xl: 3rem;
+
+    /* padding no eixo X */
     --px-lg: 1.5rem;
 
 }
@@ -88,7 +94,12 @@ ul[role="list"]{
         --fs-xl: 3rem;
         --fs-2xl: 4rem;
 
-        --px-lg: 2rem;
+        /* padding no eixo Y */
+        --py-base: 1.5rem;
+        --py-lg: 2.5rem;
+        --py-xl: 5rem;
+
+        --px-lg: 2rem; /* padding no eixo X */
     }
 
 }
