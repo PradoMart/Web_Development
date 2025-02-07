@@ -93,6 +93,11 @@ a:hover{
     color: transparent;
 }
 
+img{
+    max-width: 100%;
+    display: inline-block;
+}
+
 ul[role="list"]{
     /* alguns navegadores param  de interpretar ul como listas, quando tiramos o style.*/
     list-style: none;
