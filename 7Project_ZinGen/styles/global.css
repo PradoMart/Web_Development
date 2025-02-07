@@ -80,6 +80,19 @@ a{
     color: inherit;
 }
 
+a:hover{
+    background: linear-gradient(
+        90deg,
+        var(--brand-color-secundary) 0%,
+        var(--brand-color-primary) 100%
+    );
+
+    /* recortanto o texto e colocando num fundo vazado, assim como fizemos com o button. */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
 ul[role="list"]{
     /* alguns navegadores param  de interpretar ul como listas, quando tiramos o style.*/
     list-style: none;
