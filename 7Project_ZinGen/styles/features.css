@@ -1,0 +1,13 @@
+#features{
+    & .cards{
+        grid-template-columns: 17.5rem 1fr 1fr 17.5rem;
+            /* fixando a largura do primeiro e ultimo grid. O do meio deixando flexivel */
+        grid-template-rows: 25rem 25rem;
+        gap: 2rem;
+    }
+
+    & .card:nth-child(2){
+        grid-column: 2/4;
+            /* informando que o card da gameficação inicia na linha 2 e termina na 4 do grid, ou seja ele fica no meio, ocupando dois espaços */
+    }
+}

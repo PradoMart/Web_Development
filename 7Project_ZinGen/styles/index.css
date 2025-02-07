@@ -6,3 +6,6 @@
 @import url(hero.css);
 @import url(sections.css);
 @import url(about.css);
+@import url(cards.css);
+/* só vai importar o features para o desktop */
+@import url(features.css) (width >= 80em);
