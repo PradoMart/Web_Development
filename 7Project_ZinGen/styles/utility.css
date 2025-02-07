@@ -21,7 +21,7 @@
     /* o code acima pega o menor valor entre os 375px e a diferença aplicada com o padding de 1.2rem na var px-lg. ta multiplicado por dois, pq é referente aos lados esquerdo e direto; */
 
     margin-inline: auto;
-    border: solid violet 2px;
+    /* border: solid violet 2px; */
 }
 
 .desktop-only{
@@ -37,12 +37,20 @@
     display: flex;
 }
 
+.items-center{
+    align-items: center;
+}
+
 .grid{
     display: grid;
 }
 
 .gap-1{
     gap: 1rem;
+}
+
+.gap-1\.5{
+    gap: 1.5rem;
 }
 
 @media (width >= 80em){
