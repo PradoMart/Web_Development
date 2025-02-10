@@ -59,7 +59,7 @@
         background-color: var(--bg-color);
         
         /* é como se fosse um padding de 1,5px */
-        inset: 0.09375rem;
+        inset: 1px;
     }
 
     &::after{
