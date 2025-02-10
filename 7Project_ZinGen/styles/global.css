@@ -50,7 +50,10 @@ html{
     font-size: var(--fs-base);
     line-height: 1.6;
     color: var(--text-color-primary);
-    overflow-x: hidden;
+    overflow-x: hidden; /* por conta da imagem do cara escutando musica, na seção de download, tivemos que colocar pra nao ter rolagem no eixo x */
+    
+    scroll-behavior: smooth; /* suaviza a rolagem do eixo y */
+    
 }
 
 body{
