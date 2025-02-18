@@ -1,7 +1,7 @@
-//Cotações moedas
-const USD = 4.87
-const EUR = 5.32
-const GBP = 6.08
+//Cotações moedas em 17/02
+const USD = 5.71
+const EUR = 5.98
+const GBP = 7.20
 
 
 // Obtendo os elementos TAG
