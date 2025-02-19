@@ -53,13 +53,29 @@ function expenseAdd(newExpense){
         //add a classe "expense" estilização CSS
         expenseItem.classList.add("expense")
 
-        //criando a img
+        //criando a img/icon
         const expenseIcon = document.createElement("img")
         expenseIcon.setAttribute("src", `./img/${newExpense.category_id}.svg`)
         expenseIcon.setAttribute("alt", newExpense.category_name)
 
+        //criando o nome da categora da despesa
+        const expenseInfo = document.createElement("div")
+        expenseInfo.classList.add("expense-info")
+        
+        //cria o nome da despesa
+        const expenseName = document.createElement("strong")
+        expenseName.textContent = newExpense.expense
+        
+        //cria o nome da categoria da despesa
+        const expenseCategory = document.createElement("span")
+        expenseCategory.textContent = newExpense.category_name
+        
+        //add nome e categoria na div
+        expenseInfo.append(expenseName, expenseCategory)
+        
+        
         //add as infos no item
-        expenseItem.append(expenseIcon)
+        expenseItem.append(expenseIcon, expenseInfo)
 
         //add o item na lista
         expenseList.append(expenseItem)
